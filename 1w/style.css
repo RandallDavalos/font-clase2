@@ -9,8 +9,8 @@ html, body {
 
 canvas {
   display: block;
+  }
 
-}
 nav {
     position: absolute
     width: 100%;
@@ -21,21 +21,21 @@ nav {
     background: rgba(255, 255, 255, .2);
     box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
     backdrop-filter: blur(10px);
-}
+    }
 
 nav a {
     padding: 1rem;
     color: rgba(0, 0, 0, .75);
-}
+    }
 
 nav a: hover{
     color: rgba(0, 0, 0, 1);
-}
+    }
 
 nav a.aqui{
     text-decoration: none;
     color: rgba(0, 0, 0, .5);
-}
+    }
 
 aside {
     position: fixed;
@@ -43,7 +43,7 @@ aside {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 38vw;
-}
+    }
 
 @media (orientation: portrait) {
     aside {
@@ -55,13 +55,13 @@ aside p {
     font-size: 1.38rem;
     line-height: 1.38;
     color: rgba(0,0,0,.6);
-}
+    }
 
 aside img {
     width: 100%;
     height: auto;
     opacity: 0.5;
-}
+    }
      </script>
    </body>
-</html>   
+</html>
